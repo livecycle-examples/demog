@@ -1,0 +1,43 @@
+@tailwind base;
+
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-xl font-black text-lc-black;
+    }
+    h2 {
+        @apply text-xl;
+    }
+    
+    html,body{
+        font-size: 16px;
+        font-family: "Lato", "Lucida Grande", Tahoma, Sans-Serif;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        @apply leading-normal font-black;
+        font-family: "Raleway", "sans-serif"
+    }
+
+    @screen sm {
+        h1 {
+            @apply text-3xl
+        }
+        body {
+            font-size: 18px;
+        }
+    }
+
+    @screen md{
+        h1 {
+            @apply text-5xl;
+        }
+        body {
+            font-size: 20px;
+        }
+    }
+    
+}

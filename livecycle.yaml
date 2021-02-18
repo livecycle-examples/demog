@@ -1,0 +1,18 @@
+version: v1alpha1
+
+web:
+    build:
+        type: Dockerfile    
+        dockerfile:
+            contents: |
+                        FROM node:14-buster as build
+                        RUN npm install -g gatsby-cli
+                        WORKDIR /app
+                        COPY package.json package-lock.json ./
+                        RUN yarn
+                        COPY . .
+                        RUN gatsby build
+    output:
+        type: static
+        static:
+            path: /app/public
