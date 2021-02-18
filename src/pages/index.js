@@ -117,7 +117,7 @@ const IndexPage = () => {
     <main className="text-lg">
     <SEO title="Home" />
     <div className="text-center max-w-screen-xl m-auto p-4">
-    <h1 className="mx-auto my-10" style={{lineHeight: 1.15}}>Instant product preview <br/>
+    <h1 className="animate__animated animate__tada animate__infinite animate__slow  mx-auto my-10" style={{lineHeight: 1.15}}>Instant product preview <br/>
         for remote collaboration</h1>
     <div className="my-5">
     No more context switching, and hectic ping-pong sessions with team <br/> 
