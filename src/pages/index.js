@@ -129,7 +129,7 @@ const IndexPage = () => {
     <ContactUs/>
     </div>
 
-    <section className="bg-gray-200 rounded-3xl pt-5 px-10">
+    <section className="bg-black rounded-3xl pt-5 px-10 text-white">
         <h3 className="my-3 text-3xl font-black">Share an interactive environment in seconds</h3>
         <p className="mx-auto w-5/6 mb-8">
         Making your code playable in seconds, Allow team members and stakeholders to interact with and modify your product at their own time and place.
