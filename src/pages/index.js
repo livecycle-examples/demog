@@ -119,7 +119,7 @@ const IndexPage = () => {
     <div className="text-center max-w-screen-xl m-auto p-4">
     <h1 className="animate__animated animate__tada animate__infinite animate__slow  mx-auto my-10" style={{lineHeight: 1.15}}>Instant product preview <br/>
         for remote collaboration</h1>
-    <div className="my-5">
+    <div className="animate__animated animate__backInLeft my-5">
     No more context switching, and hectic ping-pong sessions with team <br/> 
     members and stakeholders. Share your progress during development. <br/>
      Get actionable feedback. Ship. Faster.
